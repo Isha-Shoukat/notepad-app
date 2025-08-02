@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes</title>
+  <link rel="stylesheet" href="noteapp.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2 class="logo">Docket</h2>
+      <button id="addNoteBtn" class="plus-btn">+</button>
+      <div id="colorPicker" class="color-picker hidden">
+        <span class="color-option" data-color="#FFD580"></span>
+        <span class="color-option" data-color="#FFB085"></span>
+        <span class="color-option" data-color="#D6B4FC"></span>
+        <span class="color-option" data-color="#73E5FF"></span>
+        <span class="color-option" data-color="#E9F78D"></span>
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>Notes</h1>
+      <div id="notesContainer" class="notes-grid"></div>
+    </div>
+  </div>
+  <script src="noteapp.js"></script>
+</body>
+</html>
